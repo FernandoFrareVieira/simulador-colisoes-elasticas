@@ -5,13 +5,13 @@
 
 Um simulador simples que demonstra o princípio de colisões perfeitamente elásticas entre partículas em um ambiente 2D, construído com Python e a biblioteca Pygame.
 
-![Demonstração do Simulador](https://i.imgur.com/link_para_seu_gif_ou_imagem.gif)
+<img src="images/menu.png" alt="Diagrama de Blocos do Projeto" width="1100"/>
+
+<img src="images/animacao.gif" alt="Diagrama de Blocos do Projeto" width="1100"/>
 
 ## 📜 Sobre o Projeto
 
 Este projeto foi desenvolvido como um exercício prático para aplicar conceitos de física e matemática em um ambiente de programação. O objetivo é simular o movimento e a interação de múltiplas bolas em um espaço confinado, onde as colisões entre elas e com as paredes seguem as leis da colisão elástica.
-
-A física é tratada utilizando vetores (`pygame.math.Vector2`), o que torna os cálculos de posição, velocidade e transferência de momento mais elegantes e precisos.
 
 ## ✨ Funcionalidades
 
@@ -37,10 +37,9 @@ Para executar este projeto localmente, siga os passos abaixo.
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    cd seu-repositorio
+    git clone https://github.com/FernandoFrareVieira/simulador-colisoes-elasticas.git
     ```
-    2.  **Crie um ambiente virtual (recomendado):**
+2.  **Crie um ambiente virtual (recomendado):**
     ```bash
     python -m venv venv
     source venv/bin/activate  # No Windows: venv\Scripts\activate
@@ -56,7 +55,6 @@ Para executar este projeto localmente, siga os passos abaixo.
     ```bash
     python main.py
     ```
-    *Obs: O arquivo principal pode ter outro nome, como `simulator.py`. Ajuste o comando se necessário.*
 
 ## 🧠 A Física por Trás
 
